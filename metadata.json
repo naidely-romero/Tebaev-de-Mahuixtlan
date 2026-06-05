@@ -1,0 +1,6 @@
+{
+  "name": "Telebachillerato de Veracruz Mahuixtlán",
+  "description": "Sitio oficial y portal educativo interactivo del Telebachillerato de Veracruz, plantel Mahuixtlán. Explora planes de estudio, simula becas y gestiona tu inscripción.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
