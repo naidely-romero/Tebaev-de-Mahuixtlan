@@ -680,17 +680,7 @@ export default function App() {
       {/* Footer */}
       <Footer onNavigate={handleNavigate} schoolLogo={schoolLogo !== DEFAULT_LOGO ? schoolLogo : undefined} />
 
-      {/* Botón flotante para abrir el panel de personalización de recursos */}
-      <div className="fixed bottom-6 left-6 z-40">
-        <button
-          onClick={() => setIsAdminOpen(true)}
-          className="flex items-center gap-2 px-5 py-3.5 bg-black hover:bg-neutral-900 border border-neutral-800 text-white rounded-full shadow-2xl transition-all duration-300 font-extrabold text-xs uppercase tracking-wider cursor-pointer group"
-          title="Personalizar diseño de fotos y logo del sitio"
-        >
-          <Settings className="h-4.5 w-4.5 text-red-500 animate-spin group-hover:text-red-400" style={{ animationDuration: '8s' }} />
-          <span>Personalizar Fotos y Logo</span>
-        </button>
-      </div>
+
 
       {/* Modal interactivo de personalización de recursos */}
       <AnimatePresence>
