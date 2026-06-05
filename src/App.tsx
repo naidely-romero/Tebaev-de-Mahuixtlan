@@ -233,7 +233,7 @@ export default function App() {
 
                 {/* Title & Headline */}
                 <div className="space-y-4">
-                  <h1 className="text-4xl sm:text-5xl lg:text-6.5xl font-display font-black tracking-tight leading-none text-black uppercase italic">
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black tracking-tight leading-none text-black uppercase italic">
                     Educa con Orgullo y <br className="hidden sm:inline" />
                     <span className="text-red-600">
                       Sustentabilidad Regional
